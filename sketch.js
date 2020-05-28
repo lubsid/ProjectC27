@@ -60,12 +60,12 @@ function draw() {
 }
 
 function mouseDragged(){
-  Matter.Body.setPosition(ball.body, {x: mouseX-120 , y: mouseY});
-  Matter.Body.setPosition(ball2.body, {x: mouseX -60, y: mouseY});
-  Matter.Body.setPosition(ball3.body, {x: mouseX , y: mouseY});
- Matter.Body.setPosition(ball4.body, {x: mouseX+60 , y: mouseY});
- Matter.Body.setPosition(ball5.body, {x: mouseX+120 , y: mouseY});
- Matter.Body.setPosition(ball6.body, {x: mouseX+180 , y: mouseY});
+  Matter.Body.setPosition(ball.body, {x: mouseX , y: mouseY});
+  //Matter.Body.setPosition(ball2.body, {x: mouseX -60, y: mouseY});
+ // Matter.Body.setPosition(ball3.body, {x: mouseX , y: mouseY});
+ //Matter.Body.setPosition(ball4.body, {x: mouseX+60 , y: mouseY});
+ //Matter.Body.setPosition(ball5.body, {x: mouseX+120 , y: mouseY});
+ //Matter.Body.setPosition(ball6.body, {x: mouseX+180 , y: mouseY});
  // Matter.Body.setStatic(ball.body, false);
   //Matter.Body.setStatic(ball2.body, false);
  // Matter.Body.setStatic(ball3.body, false);
